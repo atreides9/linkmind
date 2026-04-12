@@ -295,7 +295,7 @@ export function GraphView() {
   };
 
   return (
-    <div className="h-screen flex bg-bg-canvas">
+    <div className="h-full flex bg-bg-canvas">
       {/* Sidebar */}
       <Sidebar />
 

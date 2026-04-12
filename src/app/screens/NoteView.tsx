@@ -129,7 +129,7 @@ export function NoteView() {
 
   if (!note) {
     return (
-      <div className="h-screen flex bg-bg-canvas items-center justify-center">
+      <div className="h-full flex bg-bg-canvas items-center justify-center">
         <div className="text-center">
           <p className="text-text-secondary">노트를 찾을 수 없습니다</p>
         </div>
@@ -138,7 +138,7 @@ export function NoteView() {
   }
 
   return (
-    <div className="h-screen flex bg-bg-canvas">
+    <div className="h-full flex bg-bg-canvas">
       {/* Sidebar */}
       <Sidebar />
 

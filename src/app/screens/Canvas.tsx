@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import { useNavigate } from "react-router";
 import { Sidebar } from "../components/Sidebar";
-import { Breadcrumbs } from "../components/Breadcrumbs";
 import { NodeCard } from "../components/NodeCard";
 import { ConnectionLine } from "../components/ConnectionLine";
 import { NoteEditModal } from "../components/NoteEditModal";
@@ -53,7 +52,7 @@ export function Canvas() {
   };
 
   return (
-    <div className="h-screen flex bg-bg-canvas">
+    <div className="h-full flex bg-bg-canvas">
       {/* Sidebar */}
       <Sidebar />
 
@@ -83,9 +82,6 @@ export function Canvas() {
             </div>
           </div>
         </div>
-
-        {/* Breadcrumbs */}
-        <Breadcrumbs />
 
         {/* Canvas Area */}
         <div className="flex-1 relative overflow-hidden">

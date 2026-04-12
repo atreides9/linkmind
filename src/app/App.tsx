@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import { FavoritesProvider } from "./context/FavoritesContext";
 import { TabsProvider } from "./context/TabsContext";
-import { TabNavigator } from "./components/TabNavigator";
 import { Landing } from "./screens/Landing";
 import { Login } from "./screens/Login";
 import { Canvas } from "./screens/Canvas";
@@ -24,7 +23,6 @@ export default function App() {
             <Route path="/onboarding" element={<Onboarding />} />
             <Route path="*" element={
               <div className="h-screen flex flex-col">
-                <TabNavigator />
                 <div className="flex-1 overflow-hidden">
                   <Routes>
                     <Route path="/canvas" element={<Canvas />} />

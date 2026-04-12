@@ -49,7 +49,7 @@ export function SearchResults() {
     : results.filter(r => r.matchType === filterType);
 
   return (
-    <div className="h-screen flex bg-bg-canvas">
+    <div className="h-full flex bg-bg-canvas">
       <Sidebar />
 
       <div className="flex-1 flex flex-col">

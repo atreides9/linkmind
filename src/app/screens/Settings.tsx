@@ -41,7 +41,7 @@ export function Settings() {
   const [activeSection, setActiveSection] = useState("account");
 
   return (
-    <div className="h-screen flex bg-bg-canvas">
+    <div className="h-full flex bg-bg-canvas">
       <Sidebar />
 
       <div className="flex-1 flex flex-col">

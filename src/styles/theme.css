@@ -50,7 +50,7 @@
   /* Semantic Colors - Border */
   --border-default: var(--gray-800);
   --border-focus: var(--primary-400);
-  --border-subtle: var(--gray-900);
+  --border-subtle: var(--gray-800);
 
   /* Semantic Colors - Status */
   --status-success: #34D399;
