@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import { useSearchParams, useNavigate } from "react-router";
 import { Sidebar } from "../components/Sidebar";
 import { Breadcrumbs } from "../components/Breadcrumbs";
-import { ButtonIcon } from "../components/Button";
 import { Tag } from "../components/Tag";
-import { Settings, FileText, Search as SearchIcon, Clock } from "lucide-react";
+import { FileText, Search as SearchIcon, Clock } from "lucide-react";
 
 interface SearchResult {
   id: string;
@@ -56,12 +55,6 @@ export function SearchResults() {
         {/* Topbar */}
         <div className="h-14 flex items-center justify-between px-6 border-b border-border-subtle">
           <h2 className="text-[20px] font-semibold text-text-primary">검색 결과</h2>
-          <div className="flex items-center gap-4">
-            <ButtonIcon icon={<Settings />} ariaLabel="설정" />
-            <div className="w-8 h-8 rounded-full bg-brand-default flex items-center justify-center text-text-inverse text-[12px] font-semibold">
-              U
-            </div>
-          </div>
         </div>
 
         {/* Breadcrumbs */}

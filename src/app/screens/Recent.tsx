@@ -3,9 +3,8 @@ import { motion } from "motion/react";
 import { useNavigate } from "react-router";
 import { Sidebar } from "../components/Sidebar";
 import { Breadcrumbs } from "../components/Breadcrumbs";
-import { ButtonIcon } from "../components/Button";
 import { Tag } from "../components/Tag";
-import { Settings, FileText, Clock, Calendar } from "lucide-react";
+import { FileText, Clock, Calendar } from "lucide-react";
 
 interface RecentNote {
   id: string;
@@ -106,12 +105,6 @@ export function Recent() {
         <div className="h-14 flex items-center justify-between px-6 border-b border-border-subtle">
           <h2 className="text-[20px] font-semibold text-text-primary">최근 항목</h2>
 
-          <div className="flex items-center gap-4">
-            <ButtonIcon icon={<Settings />} onClick={() => navigate("/settings")} ariaLabel="설정" />
-            <div className="w-8 h-8 rounded-full bg-brand-default flex items-center justify-center text-text-inverse text-[12px] font-semibold">
-              U
-            </div>
-          </div>
         </div>
 
         {/* Breadcrumbs */}

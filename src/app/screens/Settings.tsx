@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Sidebar } from "../components/Sidebar";
 import { Breadcrumbs } from "../components/Breadcrumbs";
-import { ButtonIcon, ButtonPrimary } from "../components/Button";
-import { Settings as SettingsIcon, User, Bell, Shield, Palette, Keyboard } from "lucide-react";
+import { ButtonPrimary } from "../components/Button";
+import { User, Bell, Shield, Palette, Keyboard } from "lucide-react";
 
 const settingsSections = [
   {
@@ -48,12 +48,6 @@ export function Settings() {
         {/* Topbar */}
         <div className="h-14 flex items-center justify-between px-6 border-b border-border-subtle">
           <h2 className="text-[20px] font-semibold text-text-primary">설정</h2>
-          <div className="flex items-center gap-4">
-            <ButtonIcon icon={<SettingsIcon />} ariaLabel="설정" />
-            <div className="w-8 h-8 rounded-full bg-brand-default flex items-center justify-center text-text-inverse text-[12px] font-semibold">
-              U
-            </div>
-          </div>
         </div>
 
         {/* Breadcrumbs */}

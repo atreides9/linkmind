@@ -6,7 +6,7 @@ import rehypeRaw from "rehype-raw";
 import { Sidebar } from "../components/Sidebar";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { ButtonIcon } from "../components/Button";
-import { Settings, ChevronLeft, Edit, Star } from "lucide-react";
+import { ChevronLeft, Edit, Star } from "lucide-react";
 import { useFavorites } from "../context/FavoritesContext";
 
 // Sample markdown content
@@ -163,10 +163,6 @@ export function NoteView() {
               className={noteIsFavorite ? "text-brand-default" : ""}
             />
             <ButtonIcon icon={<Edit />} ariaLabel="편집" />
-            <ButtonIcon icon={<Settings />} onClick={() => navigate("/settings")} ariaLabel="설정" />
-            <div className="w-8 h-8 rounded-full bg-brand-default flex items-center justify-center text-text-inverse text-[12px] font-semibold">
-              U
-            </div>
           </div>
         </div>
 

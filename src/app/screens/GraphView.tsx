@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 import { Sidebar } from "../components/Sidebar";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { ButtonIcon } from "../components/Button";
-import { Settings, ZoomIn, ZoomOut, Maximize2 } from "lucide-react";
+import { ZoomIn, ZoomOut, Maximize2 } from "lucide-react";
 import * as d3 from "d3-force";
 import { zoom as d3Zoom, zoomIdentity } from "d3-zoom";
 import { select } from "d3-selection";
@@ -305,12 +305,6 @@ export function GraphView() {
         <div className="h-14 flex items-center justify-between px-6 border-b border-border-subtle">
           <h2 className="text-[20px] font-semibold text-text-primary">그래프 뷰</h2>
 
-          <div className="flex items-center gap-4">
-            <ButtonIcon icon={<Settings />} onClick={() => navigate("/settings")} ariaLabel="설정" />
-            <div className="w-8 h-8 rounded-full bg-brand-default flex items-center justify-center text-text-inverse text-[12px] font-semibold">
-              U
-            </div>
-          </div>
         </div>
 
         {/* Breadcrumbs */}

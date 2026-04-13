@@ -6,7 +6,7 @@ import { NodeCard } from "../components/NodeCard";
 import { ConnectionLine } from "../components/ConnectionLine";
 import { NoteEditModal } from "../components/NoteEditModal";
 import { ButtonIcon } from "../components/Button";
-import { Search, Settings, MousePointer, Plus, GitBranch, ZoomOut, ZoomIn } from "lucide-react";
+import { Search, MousePointer, Plus, GitBranch, ZoomOut, ZoomIn } from "lucide-react";
 
 // Sample node data
 const sampleNodes = [
@@ -75,11 +75,6 @@ export function Canvas() {
               />
             </form>
 
-            {/* Actions */}
-            <ButtonIcon icon={<Settings />} onClick={() => navigate("/settings")} ariaLabel="설정" />
-            <div className="w-8 h-8 rounded-full bg-brand-default flex items-center justify-center text-text-inverse text-[12px] font-semibold">
-              U
-            </div>
           </div>
         </div>
 
