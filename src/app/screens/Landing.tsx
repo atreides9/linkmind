@@ -12,7 +12,7 @@ export function Landing() {
       <nav className="h-16 flex items-center justify-between px-8 border-b border-border-subtle">
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 rounded-full bg-brand-default" />
-          <h2 className="font-semibold text-[20px] text-brand-default">Insight Dots</h2>
+          <h2 className="font-semibold text-[20px] text-brand-default">linkmind</h2>
         </div>
         <div className="flex items-center gap-3">
           <ButtonSecondary onClick={() => navigate('/login')}>Log in</ButtonSecondary>

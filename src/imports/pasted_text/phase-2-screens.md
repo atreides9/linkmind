@@ -98,7 +98,7 @@ Already included as Component 1-D — show as expanded standalone artboard
 Frame: 240×1080px
 
 Sections:
-- Logo area (height 64px): "Insight Dots" wordmark, primary/400, Heading2/SemiBold + dot icon
+- Logo area (height 64px): "linkmind" wordmark, primary/400, Heading2/SemiBold + dot icon
 - Section header: "내 워크스페이스", Caption/SemiBold, text/disabled, uppercase
 - NavItem list: "전체 노트" (active) / "그래프 뷰" / "태그" / "최근 항목"
 - Divider

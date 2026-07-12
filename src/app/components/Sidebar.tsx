@@ -98,7 +98,7 @@ export function Sidebar({ className = "" }: SidebarProps) {
                 exit={{ opacity: 0, width: 0 }}
                 className="font-semibold text-[20px] text-brand-default whitespace-nowrap overflow-hidden"
               >
-                Insight Dots
+                linkmind
               </motion.h2>
             )}
           </AnimatePresence>

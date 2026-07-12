@@ -21,7 +21,7 @@ export function Login() {
         {/* Logo */}
         <div className="flex items-center justify-center gap-2 mb-8">
           <div className="w-3 h-3 rounded-full bg-brand-default" />
-          <h2 className="font-semibold text-[24px] text-brand-default">Insight Dots</h2>
+          <h2 className="font-semibold text-[24px] text-brand-default">linkmind</h2>
         </div>
 
         {/* Heading */}
